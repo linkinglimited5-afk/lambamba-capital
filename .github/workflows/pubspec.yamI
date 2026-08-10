@@ -1,0 +1,12 @@
+name: lambamba_capital_v2
+description: Lambamba Capital V2 Premium Investment
+publish_to: 'none'
+version: 2.0.0+2
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+flutter:
+  uses-material-design: true
