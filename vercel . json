@@ -1,0 +1,6 @@
+{
+  "buildCommand": "if [ ! -f \"$HOME/.pub-cache/bin/flutter\" ]; then git clone https://github.com/flutter/flutter.git -b stable --depth 1 $HOME/flutter && export PATH=\"$PATH:$HOME/flutter/bin\"; fi && export PATH=\"$PATH:$HOME/flutter/bin\" && flutter build web --release",
+  "outputDirectory": "build/web",
+  "installCommand": "echo 'No install needed'",
+  "framework": null
+}
